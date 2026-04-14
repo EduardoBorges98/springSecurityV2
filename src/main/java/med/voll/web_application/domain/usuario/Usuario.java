@@ -61,4 +61,8 @@ public class Usuario implements UserDetails {
         this.senha = senha;
         this.perfil = perfil;
     }
+
+    public void alterarSenha(String senhaCriptografada) {
+        this.senha = senhaCriptografada;
+    }
 }
